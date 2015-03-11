@@ -3,16 +3,8 @@
 #		UUID | max_timestamp max_date | min_timestamp min_date
 # The input comes from the local mysql database. The database is called
 # CCC and the table is called SENSOR_b.
-# The code was written by Siddhartha for
-#              ------------------------------------------------------
-#                          Computational Social Science
-#              Department of Humanities, Social and Political Sciences
-#                         Prof. Dirk Helbing (ETH, Zurich)
-#                               Clausiusstrasse 50
-#                                  CLU Building
-#                            8092 Zürich, Switzerland
-#              ------------------------------------------------------
-
+# The code was written by Siddhartha for the Computational Social Science
+# group of Prof. Dirk Helbing at the ETH, Zurich.
 import MySQLdb
 import time
 import numpy
